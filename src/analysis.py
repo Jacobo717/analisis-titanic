@@ -70,6 +70,8 @@ df["FamilySize"] = df["SibSp"] + df["Parch"] + 1
 
 df["IsAlone"] = (df["FamilySize"] == 1).astype(int)
 
+print("Limpieza de datos completada")
+
 def clasificar_edad(edad):
     if edad < 13:
         return "Niño"
@@ -269,4 +271,4 @@ print("=" * 60)
 print()
 
 print("Los resultados fueron guardados en:")
-print(OUTPUT_DIR)
+print(OUTPUT_DIR)pip
