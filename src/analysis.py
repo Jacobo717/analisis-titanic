@@ -271,4 +271,4 @@ print("=" * 60)
 print()
 
 print("Los resultados fueron guardados en:")
-print(OUTPUT_DIR)pip
+print(OUTPUT_DIR)
